@@ -1,0 +1,67 @@
+protected_header:
+  1: -35
+payload:
+  array_1:
+    - "bar"
+    - !sd "redactable_1"
+
+  array_2:
+    - 10
+    - - !sd "redactable_2"
+
+  array_3:
+    - "bar"
+    - !sd "redactable_3"
+
+  array_4:
+    - 10
+    - - !sd "redactable_4"
+
+  array_5:
+    - 10
+    - !sd
+      - "redactable_4"
+disclosure:
+  array_1:
+    - True
+    - True
+  array_2:
+    - True
+    - - True
+  array_3:
+    - True
+    - False
+  array_4:
+    - True
+    - - False
+  array_5:
+    - True
+    - False
+issuer_key:
+  kty: EC
+  x: YRvrHDjGnIVAX-bOzbQREsN7ECCWeGGjjgda0JFCbvXpZ-PYwA275hG2s3fI_cc0
+  y: vp6U8UkD2Y-wRrdPSYGS6r2BbJDGEQXmnmGA6138SWFaFZVGSJHizM8_-XEhr5L-
+  crv: P-384
+  alg: ES384
+holder_key:
+  kty: EC
+  x: J0MuSvoK7CiQji7Q04x-qqfPz58BXNvdgoZAzVdMYEwbtqhBfn-NT8Bg6wihTxbb
+  y: AWip3Zjud2KRYVY4EuVyIgHCBYd1GCvbFA6id-t_xRw43O7eGmXaPOcBdhajSeMB
+  crv: P-384
+  alg: ES384
+issuance: 0oREoQE4IqEZAU2FWB-CUMfqnjMaEzUJrLygEmo_H3tscmVkYWN0YWJsZV8xWB-CUBWosI5IaryQAW9BH7n8URNscmVkYWN0YWJsZV8yWB-CUEphGj0X0wtBSFv13su7j9xscmVkYWN0YWJsZV8zWB-CUH0kSkpqKVwSWMdLx4Od_xNscmVkYWN0YWJsZV80WCCCUE0-pWUwhlMroOWaGHDdbiqBbHJlZGFjdGFibGVfNNhAWPSlZ2FycmF5XzGCY2JhcqEY3lggqmDc3ic00VpMK8EVBq340GnS1QmTfff5ZxFEv18GEDZnYXJyYXlfMoIKgaEY3lggaPtd8hmNJGxc02bGCmmMEgs2u-9Kclg3es0vX_Ytcn5nYXJyYXlfM4JjYmFyoRjeWCBBurZsVkwPLmnZ4HuwUPIQ_olc_iZtlFllsalqsgM71WdhcnJheV80ggqBoRjeWCD4rR7tWXcI6EcdpZm5L9BDu1UjoH9XBAiYyCQMpNeIm2dhcnJheV81ggqhGN5YIHvqd7mvUA3N5xcKT1FQPDY_KF1oLOJQxD2nOv19xbE9WGAfGSeQlCR1Ia1LEX2aDKbwdCN7IjMiXqt0bSQ9COqLVD3-9GDDe-VNVTU-a4m4AIdd0gJYvypDsylipDtB4Q8IochbmLPjnoakNv_GF3spckGXdKDY8mW-2w362ouPQpQ
+presentation: 0oREoQE4IqEZAU2CWB-CUMfqnjMaEzUJrLygEmo_H3tscmVkYWN0YWJsZV8xWB-CUBWosI5IaryQAW9BH7n8URNscmVkYWN0YWJsZV8y2EBY9KVnYXJyYXlfMYJjYmFyoRjeWCCqYNzeJzTRWkwrwRUGrfjQadLVCZN99_lnEUS_XwYQNmdhcnJheV8yggqBoRjeWCBo-13yGY0kbFzTZsYKaYwSCza770pyWDd6zS9f9i1yfmdhcnJheV8zgmNiYXKhGN5YIEG6tmxWTA8uadnge7BQ8hD-iVz-Jm2UWWWxqWqyAzvVZ2FycmF5XzSCCoGhGN5YIPitHu1ZdwjoRx2lmbkv0EO7VSOgf1cECJjIJAyk14ibZ2FycmF5XzWCCqEY3lgge-p3ua9QDc3nFwpPUVA8Nj8oXWgs4lDEPac6_X3FsT1YYB8ZJ5CUJHUhrUsRfZoMpvB0I3siMyJeq3RtJD0I6otUPf70YMN75U1VNT5ribgAh13SAli_KkOzKWKkO0HhDwihyFuYs-OehqQ2_8YXeylyQZd0oNjyZb7bDfrai49ClA
+verified:
+  array_1:
+    - bar
+    - redactable_1
+  array_2:
+    - 10
+    - - redactable_2
+  array_3:
+    - bar
+  array_4:
+    - 10
+    - []
+  array_5:
+    - 10

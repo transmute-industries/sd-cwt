@@ -1,0 +1,40 @@
+protected_header:
+  1: -35
+payload:
+  # https://www.iana.org/assignments/cwt/cwt.xhtml
+  1: 'did:web:issuer.example'
+  string: a string
+  number: 10
+  10: 100
+  arr1:
+    - "bar"
+    - "baz"
+  arr2:
+    - 10
+    - 20
+disclosure: null
+issuer_key:
+  kty: EC
+  x: YRvrHDjGnIVAX-bOzbQREsN7ECCWeGGjjgda0JFCbvXpZ-PYwA275hG2s3fI_cc0
+  y: vp6U8UkD2Y-wRrdPSYGS6r2BbJDGEQXmnmGA6138SWFaFZVGSJHizM8_-XEhr5L-
+  crv: P-384
+  alg: ES384
+holder_key:
+  kty: EC
+  x: J0MuSvoK7CiQji7Q04x-qqfPz58BXNvdgoZAzVdMYEwbtqhBfn-NT8Bg6wihTxbb
+  y: AWip3Zjud2KRYVY4EuVyIgHCBYd1GCvbFA6id-t_xRw43O7eGmXaPOcBdhajSeMB
+  crv: P-384
+  alg: ES384
+issuance: 0oREoQE4IqEZAU2A2EBYSqYBdmRpZDp3ZWI6aXNzdWVyLmV4YW1wbGVmc3RyaW5naGEgc3RyaW5nZm51bWJlcgoKGGRkYXJyMYJjYmFyY2JhemRhcnIyggoUWGD8m-4GqobyhGscVGoiNpNkHPs4CkalQJ0xU83cScWnsQy1mSNOeVOoP0YP5hl3Bf_xLacEcTK-sjJb4Ah6BbGG2WMcCeK3NfkOS7N06c0cBCUNV4C3k4_ljXVXp-bt0hM
+presentation: 0oREoQE4IqEZAU2A2EBYSqYBdmRpZDp3ZWI6aXNzdWVyLmV4YW1wbGVmc3RyaW5naGEgc3RyaW5nZm51bWJlcgoKGGRkYXJyMYJjYmFyY2JhemRhcnIyggoUWGD8m-4GqobyhGscVGoiNpNkHPs4CkalQJ0xU83cScWnsQy1mSNOeVOoP0YP5hl3Bf_xLacEcTK-sjJb4Ah6BbGG2WMcCeK3NfkOS7N06c0cBCUNV4C3k4_ljXVXp-bt0hM
+verified:
+  1: did:web:issuer.example
+  string: a string
+  number: 10
+  10: 100
+  arr1:
+    - bar
+    - baz
+  arr2:
+    - 10
+    - 20
