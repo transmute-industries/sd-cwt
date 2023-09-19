@@ -1,13 +1,13 @@
-# @transmute/vc-jwt-sd
+# @transmute/sd-jwt
 
-[![CI](https://github.com/transmute-industries/vc-jwt-sd/actions/workflows/ci.yml/badge.svg)](https://github.com/transmute-industries/vc-jwt-sd/actions/workflows/ci.yml)
+[![CI](https://github.com/transmute-industries/sd-jwt/actions/workflows/ci.yml/badge.svg)](https://github.com/transmute-industries/sd-jwt/actions/workflows/ci.yml)
 ![Branches](./badges/coverage-branches.svg)
 ![Functions](./badges/coverage-functions.svg)
 ![Lines](./badges/coverage-lines.svg)
 ![Statements](./badges/coverage-statements.svg)
 ![Jest coverage](./badges/coverage-jest%20coverage.svg)
 
-<!-- [![NPM](https://nodei.co/npm/@transmute/vc-jwt-sd.png?mini=true)](https://npmjs.org/package/@transmute/vc-jwt-sd) -->
+<!-- [![NPM](https://nodei.co/npm/@transmute/sd-jwt.png?mini=true)](https://npmjs.org/package/@transmute/sd-jwt) -->
 
 🚧 Experimental implementation of sd-jwt for use with W3C Verifiable Credentials. 🔥
 
@@ -15,7 +15,7 @@
 
 <img src="./transmute-banner.png" />
 
-#### [Questions? Contact Transmute](https://transmute.typeform.com/to/RshfIw?typeform-source=vc-jwt-sd)
+#### [Questions? Contact Transmute](https://transmute.typeform.com/to/RshfIw?typeform-source=sd-jwt)
 
 ## Usage
 
@@ -23,7 +23,7 @@
 import crypto from 'crypto'
 import moment from 'moment';
 import { base64url, exportJWK, generateKeyPair } from 'jose';
-import SD from "@transmute/vc-jwt-sd";
+import SD from "@transmute/sd-jwt";
 const alg = 'ES384'
 const iss = 'did:web:issuer.example'
 const nonce = '9876543210'

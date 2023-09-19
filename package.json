@@ -1,6 +1,6 @@
 {
-  "name": "@transmute/vc-jwt-sd",
-  "version": "0.0.4",
+  "name": "@transmute/sd-jwt",
+  "version": "0.0.0",
   "description": "Experimental",
   "main": "./dist/index.js",
   "typings": "dist/index.d.ts",
@@ -24,14 +24,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/transmute-industries/vc-jwt-sd.git"
+    "url": "git+https://github.com/transmute-industries/sd-jwt.git"
   },
   "author": "Orie Steele",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/transmute-industries/vc-jwt-sd/issues"
+    "url": "https://github.com/transmute-industries/sd-jwt/issues"
   },
-  "homepage": "https://github.com/transmute-industries/vc-jwt-sd#readme",
+  "homepage": "https://github.com/transmute-industries/sd-jwt#readme",
   "devDependencies": {
     "@types/jest": "^29.2.4",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
