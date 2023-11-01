@@ -52,10 +52,12 @@ describe("testcases", () => {
       const vc = await issuer.issue({
         claims: payload,
       })
+      fs.writeFileSync(`test/sd-cwt/testcases/${test.name}/vc.cbor`, vc)
       const vp = await holder.present({
         vc,
         disclose: disclosure
       })
+      fs.writeFileSync(`test/sd-cwt/testcases/${test.name}/vp.cbor`, vc)
       const verified = await issuer.verify({
         vc: vp
       })

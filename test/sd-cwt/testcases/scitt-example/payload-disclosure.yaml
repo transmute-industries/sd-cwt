@@ -1,0 +1,90 @@
+---
+files:
+- False
+- fileName: "./README.md"
+  SPDXID: SPDXRef-File--README.md-534A3C13F8D9F8CEBEEC1E452E3D5E53B2B6023A
+  checksums:
+  - algorithm: SHA256
+    checksumValue: 2a9467ae0bc2fb767ae582ef954c8811c5140f6eb1b88f6f64f115916764ebf4
+  - algorithm: SHA1
+    checksumValue: 534a3c13f8d9f8cebeec1e452e3d5e53b2b6023a
+  licenseConcluded: NOASSERTION
+  licenseInfoInFiles:
+  - NOASSERTION
+  copyrightText: NOASSERTION
+- fileName: "./.gitignore"
+  SPDXID: SPDXRef-File--.gitignore-1B599299EAB9334A33051A92404B543A3BB41350
+  checksums:
+  - algorithm: SHA256
+    checksumValue: 8f5986c32ad03f644673ec102d84cad1f95b3f40fac0da2855c0a2f90eae91e1
+  - algorithm: SHA1
+    checksumValue: 1b599299eab9334a33051a92404b543a3bb41350
+  licenseConcluded: NOASSERTION
+  licenseInfoInFiles:
+  - NOASSERTION
+  copyrightText: NOASSERTION
+- fileName: "./artifact.js"
+  SPDXID: SPDXRef-File--artifact.js-86E48231F3A466D588BEDF5162E4D6FF7B8C0251
+  checksums:
+  - algorithm: SHA256
+    checksumValue: 4a3286fb4866f9e48920b6c66090427d0de2db1e79ac2e37a21d29c9518e7c46
+  - algorithm: SHA1
+    checksumValue: 86e48231f3a466d588bedf5162e4d6ff7b8c0251
+  licenseConcluded: NOASSERTION
+  licenseInfoInFiles:
+  - NOASSERTION
+  copyrightText: NOASSERTION
+- fileName: "./package.json"
+  SPDXID: SPDXRef-File--package.json-8EE24E0660E30C48D31317534400CCFBC149CB75
+  checksums:
+  - algorithm: SHA256
+    checksumValue: fb97d8cc1e12227be8e5b7c64d47b71fab407a3820871da25825e734b6ae97d7
+  - algorithm: SHA1
+    checksumValue: 8ee24e0660e30c48d31317534400ccfbc149cb75
+  licenseConcluded: NOASSERTION
+  licenseInfoInFiles:
+  - NOASSERTION
+  copyrightText: NOASSERTION
+- False
+packages:
+- name: scitt-nodejs-example
+  SPDXID: SPDXRef-RootPackage
+  downloadLocation: NOASSERTION
+  packageVerificationCode:
+    packageVerificationCodeValue: 8277f9ac2e97a0feb01186977e63ac432556bfe5
+  filesAnalyzed: true
+  licenseConcluded: NOASSERTION
+  licenseInfoFromFiles:
+  - NOASSERTION
+  licenseDeclared: NOASSERTION
+  copyrightText: NOASSERTION
+  versionInfo: 0.0.0
+  externalRefs:
+  - referenceCategory: PACKAGE-MANAGER
+    referenceType: purl
+    referenceLocator: pkg:swid/scitt-community/spdx.org/scitt-nodejs-example@0.0.0?tag_id=44c701aa-7829-4bc5-9fff-099c001ae300
+  supplier: 'Organization: scitt-community'
+  hasFiles:
+  - False
+  - SPDXRef-File--artifact.js-86E48231F3A466D588BEDF5162E4D6FF7B8C0251
+  - SPDXRef-File--package.json-8EE24E0660E30C48D31317534400CCFBC149CB75
+  - False
+  - SPDXRef-File--.gitignore-1B599299EAB9334A33051A92404B543A3BB41350
+  - SPDXRef-File--README.md-534A3C13F8D9F8CEBEEC1E452E3D5E53B2B6023A
+externalDocumentRefs: []
+relationships:
+- relationshipType: DESCRIBES
+  relatedSpdxElement: SPDXRef-RootPackage
+  spdxElementId: SPDXRef-DOCUMENT
+spdxVersion: SPDX-2.2
+dataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+name: scitt-nodejs-example 0.0.0
+documentNamespace: https://spdx.org/spdxdocs/sbom-tool-1.7.1-b4b2627e-c28a-4c65-8f00-8a79cfedc225/scitt-nodejs-example/0.0.0/PWJovljzU0qFaGdHRWqKDg
+creationInfo:
+  created: '2023-11-01T17:26:46Z'
+  creators:
+  - 'Organization: scitt-community'
+  - 'Tool: Microsoft.SBOMTool-1.7.1'
+documentDescribes:
+- SPDXRef-RootPackage

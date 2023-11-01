@@ -1,0 +1,306 @@
+protected_header:
+  1: -35
+payload:
+  files:
+    - !sd
+      fileName: "./script.sh"
+      SPDXID: SPDXRef-File--script.sh-A5BE2A0E0FC9F8C2DA4F420B3046CD292AFB11C5
+      checksums:
+        - algorithm: SHA256
+          checksumValue: e12fc416bf4aebf08117725577e05900aabf7ba7bda1c05e78cb519620c9a0b6
+        - algorithm: SHA1
+          checksumValue: a5be2a0e0fc9f8c2da4f420b3046cd292afb11c5
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+    - fileName: "./README.md"
+      SPDXID: SPDXRef-File--README.md-534A3C13F8D9F8CEBEEC1E452E3D5E53B2B6023A
+      checksums:
+        - algorithm: SHA256
+          checksumValue: 2a9467ae0bc2fb767ae582ef954c8811c5140f6eb1b88f6f64f115916764ebf4
+        - algorithm: SHA1
+          checksumValue: 534a3c13f8d9f8cebeec1e452e3d5e53b2b6023a
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+    - fileName: "./.gitignore"
+      SPDXID: SPDXRef-File--.gitignore-1B599299EAB9334A33051A92404B543A3BB41350
+      checksums:
+        - algorithm: SHA256
+          checksumValue: 8f5986c32ad03f644673ec102d84cad1f95b3f40fac0da2855c0a2f90eae91e1
+        - algorithm: SHA1
+          checksumValue: 1b599299eab9334a33051a92404b543a3bb41350
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+    - fileName: "./artifact.js"
+      SPDXID: SPDXRef-File--artifact.js-86E48231F3A466D588BEDF5162E4D6FF7B8C0251
+      checksums:
+        - algorithm: SHA256
+          checksumValue: 4a3286fb4866f9e48920b6c66090427d0de2db1e79ac2e37a21d29c9518e7c46
+        - algorithm: SHA1
+          checksumValue: 86e48231f3a466d588bedf5162e4d6ff7b8c0251
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+    - fileName: "./package.json"
+      SPDXID: SPDXRef-File--package.json-8EE24E0660E30C48D31317534400CCFBC149CB75
+      checksums:
+        - algorithm: SHA256
+          checksumValue: fb97d8cc1e12227be8e5b7c64d47b71fab407a3820871da25825e734b6ae97d7
+        - algorithm: SHA1
+          checksumValue: 8ee24e0660e30c48d31317534400ccfbc149cb75
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+    - !sd
+      fileName: "./clean.sh"
+      SPDXID: SPDXRef-File--clean.sh-49B0B794639658A24ED0F30BCCC4124A886FA908
+      checksums:
+        - algorithm: SHA256
+          checksumValue: a42c14e6502ccbc2a8abd051bd38fe1037f40e6084afb667a87bb59572c89657
+        - algorithm: SHA1
+          checksumValue: 49b0b794639658a24ed0f30bccc4124a886fa908
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+  packages:
+    - name: scitt-nodejs-example
+      SPDXID: SPDXRef-RootPackage
+      downloadLocation: NOASSERTION
+      packageVerificationCode:
+        packageVerificationCodeValue: 8277f9ac2e97a0feb01186977e63ac432556bfe5
+      filesAnalyzed: true
+      licenseConcluded: NOASSERTION
+      licenseInfoFromFiles:
+        - NOASSERTION
+      licenseDeclared: NOASSERTION
+      copyrightText: NOASSERTION
+      versionInfo: 0.0.0
+      externalRefs:
+        - referenceCategory: PACKAGE-MANAGER
+          referenceType: purl
+          referenceLocator: pkg:swid/scitt-community/spdx.org/scitt-nodejs-example@0.0.0?tag_id=44c701aa-7829-4bc5-9fff-099c001ae300
+      supplier: 'Organization: scitt-community'
+      hasFiles:
+        - SPDXRef-File--script.sh-A5BE2A0E0FC9F8C2DA4F420B3046CD292AFB11C5
+        - SPDXRef-File--artifact.js-86E48231F3A466D588BEDF5162E4D6FF7B8C0251
+        - SPDXRef-File--package.json-8EE24E0660E30C48D31317534400CCFBC149CB75
+        - SPDXRef-File--clean.sh-49B0B794639658A24ED0F30BCCC4124A886FA908
+        - SPDXRef-File--.gitignore-1B599299EAB9334A33051A92404B543A3BB41350
+        - SPDXRef-File--README.md-534A3C13F8D9F8CEBEEC1E452E3D5E53B2B6023A
+  externalDocumentRefs: []
+  relationships:
+    - relationshipType: DESCRIBES
+      relatedSpdxElement: SPDXRef-RootPackage
+      spdxElementId: SPDXRef-DOCUMENT
+  spdxVersion: SPDX-2.2
+  dataLicense: CC0-1.0
+  SPDXID: SPDXRef-DOCUMENT
+  name: scitt-nodejs-example 0.0.0
+  documentNamespace: https://spdx.org/spdxdocs/sbom-tool-1.7.1-b4b2627e-c28a-4c65-8f00-8a79cfedc225/scitt-nodejs-example/0.0.0/PWJovljzU0qFaGdHRWqKDg
+  creationInfo:
+    created: '2023-11-01T17:26:46Z'
+    creators:
+      - 'Organization: scitt-community'
+      - 'Tool: Microsoft.SBOMTool-1.7.1'
+  documentDescribes:
+    - SPDXRef-RootPackage
+disclosure:
+  files:
+    - False
+    - fileName: "./README.md"
+      SPDXID: SPDXRef-File--README.md-534A3C13F8D9F8CEBEEC1E452E3D5E53B2B6023A
+      checksums:
+        - algorithm: SHA256
+          checksumValue: 2a9467ae0bc2fb767ae582ef954c8811c5140f6eb1b88f6f64f115916764ebf4
+        - algorithm: SHA1
+          checksumValue: 534a3c13f8d9f8cebeec1e452e3d5e53b2b6023a
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+    - fileName: "./.gitignore"
+      SPDXID: SPDXRef-File--.gitignore-1B599299EAB9334A33051A92404B543A3BB41350
+      checksums:
+        - algorithm: SHA256
+          checksumValue: 8f5986c32ad03f644673ec102d84cad1f95b3f40fac0da2855c0a2f90eae91e1
+        - algorithm: SHA1
+          checksumValue: 1b599299eab9334a33051a92404b543a3bb41350
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+    - fileName: "./artifact.js"
+      SPDXID: SPDXRef-File--artifact.js-86E48231F3A466D588BEDF5162E4D6FF7B8C0251
+      checksums:
+        - algorithm: SHA256
+          checksumValue: 4a3286fb4866f9e48920b6c66090427d0de2db1e79ac2e37a21d29c9518e7c46
+        - algorithm: SHA1
+          checksumValue: 86e48231f3a466d588bedf5162e4d6ff7b8c0251
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+    - fileName: "./package.json"
+      SPDXID: SPDXRef-File--package.json-8EE24E0660E30C48D31317534400CCFBC149CB75
+      checksums:
+        - algorithm: SHA256
+          checksumValue: fb97d8cc1e12227be8e5b7c64d47b71fab407a3820871da25825e734b6ae97d7
+        - algorithm: SHA1
+          checksumValue: 8ee24e0660e30c48d31317534400ccfbc149cb75
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+    - False
+  packages:
+    - name: scitt-nodejs-example
+      SPDXID: SPDXRef-RootPackage
+      downloadLocation: NOASSERTION
+      packageVerificationCode:
+        packageVerificationCodeValue: 8277f9ac2e97a0feb01186977e63ac432556bfe5
+      filesAnalyzed: true
+      licenseConcluded: NOASSERTION
+      licenseInfoFromFiles:
+        - NOASSERTION
+      licenseDeclared: NOASSERTION
+      copyrightText: NOASSERTION
+      versionInfo: 0.0.0
+      externalRefs:
+        - referenceCategory: PACKAGE-MANAGER
+          referenceType: purl
+          referenceLocator: pkg:swid/scitt-community/spdx.org/scitt-nodejs-example@0.0.0?tag_id=44c701aa-7829-4bc5-9fff-099c001ae300
+      supplier: 'Organization: scitt-community'
+      hasFiles:
+        - False
+        - SPDXRef-File--artifact.js-86E48231F3A466D588BEDF5162E4D6FF7B8C0251
+        - SPDXRef-File--package.json-8EE24E0660E30C48D31317534400CCFBC149CB75
+        - False
+        - SPDXRef-File--.gitignore-1B599299EAB9334A33051A92404B543A3BB41350
+        - SPDXRef-File--README.md-534A3C13F8D9F8CEBEEC1E452E3D5E53B2B6023A
+  externalDocumentRefs: []
+  relationships:
+    - relationshipType: DESCRIBES
+      relatedSpdxElement: SPDXRef-RootPackage
+      spdxElementId: SPDXRef-DOCUMENT
+  spdxVersion: SPDX-2.2
+  dataLicense: CC0-1.0
+  SPDXID: SPDXRef-DOCUMENT
+  name: scitt-nodejs-example 0.0.0
+  documentNamespace: https://spdx.org/spdxdocs/sbom-tool-1.7.1-b4b2627e-c28a-4c65-8f00-8a79cfedc225/scitt-nodejs-example/0.0.0/PWJovljzU0qFaGdHRWqKDg
+  creationInfo:
+    created: '2023-11-01T17:26:46Z'
+    creators:
+      - 'Organization: scitt-community'
+      - 'Tool: Microsoft.SBOMTool-1.7.1'
+  documentDescribes:
+    - SPDXRef-RootPackage
+issuer_key:
+  kty: EC
+  x: crsgtcZ-3NJ6gQ9Yq_x3Vyqvcszc8jZ2uOAb1Ud7GNjXDkbT24yKhwoqfFYCJ1sD
+  y: CqNFDewDJ3sUC4n-PzSBKga0WYMM82FHqkgGPey1kFe5fobJfl71uhpAzFc5iG0V
+  crv: P-384
+  alg: ES384
+holder_key:
+  kty: EC
+  x: o4XeBMo7omR7qmkTI7wn1HeVMs_50GHrL8FSogQ3N5LbQ8K0ZtAirhkh_m7xDUSq
+  y: AaVZpfnf10JiECQPGTe1GPJ0a-VjUh11tYHuDfklI8Xhf0tU2t6D_d_TtB646JLN
+  crv: P-384
+  alg: ES384
+issuance: 0oREoQE4IqEZAU2CWQF9glB5pDacozB3JJkp9YD79bOlpmhmaWxlTmFtZWsuL3NjcmlwdC5zaGZTUERYSUR4QFNQRFhSZWYtRmlsZS0tc2NyaXB0LnNoLUE1QkUyQTBFMEZDOUY4QzJEQTRGNDIwQjMwNDZDRDI5MkFGQjExQzVpY2hlY2tzdW1zgqJpYWxnb3JpdGhtZlNIQTI1Nm1jaGVja3N1bVZhbHVleEBlMTJmYzQxNmJmNGFlYmYwODExNzcyNTU3N2UwNTkwMGFhYmY3YmE3YmRhMWMwNWU3OGNiNTE5NjIwYzlhMGI2omlhbGdvcml0aG1kU0hBMW1jaGVja3N1bVZhbHVleChhNWJlMmEwZTBmYzlmOGMyZGE0ZjQyMGIzMDQ2Y2QyOTJhZmIxMWM1cGxpY2Vuc2VDb25jbHVkZWRrTk9BU1NFUlRJT05ybGljZW5zZUluZm9JbkZpbGVzgWtOT0FTU0VSVElPTm1jb3B5cmlnaHRUZXh0a05PQVNTRVJUSU9OWQF7glAVLNHOKU_ZCDbnGmTHel6cpmhmaWxlTmFtZWouL2NsZWFuLnNoZlNQRFhJRHg_U1BEWFJlZi1GaWxlLS1jbGVhbi5zaC00OUIwQjc5NDYzOTY1OEEyNEVEMEYzMEJDQ0M0MTI0QTg4NkZBOTA4aWNoZWNrc3Vtc4KiaWFsZ29yaXRobWZTSEEyNTZtY2hlY2tzdW1WYWx1ZXhAYTQyYzE0ZTY1MDJjY2JjMmE4YWJkMDUxYmQzOGZlMTAzN2Y0MGU2MDg0YWZiNjY3YTg3YmI1OTU3MmM4OTY1N6JpYWxnb3JpdGhtZFNIQTFtY2hlY2tzdW1WYWx1ZXgoNDliMGI3OTQ2Mzk2NThhMjRlZDBmMzBiY2NjNDEyNGE4ODZmYTkwOHBsaWNlbnNlQ29uY2x1ZGVka05PQVNTRVJUSU9OcmxpY2Vuc2VJbmZvSW5GaWxlc4FrTk9BU1NFUlRJT05tY29weXJpZ2h0VGV4dGtOT0FTU0VSVElPTlkL-KtlZmlsZXOGoRjeWCAWi_zOKPXltDsv2PAjQE3jmIaX3EL5eMj5TMZWD3lTyaZoZmlsZU5hbWVrLi9SRUFETUUubWRmU1BEWElEeEBTUERYUmVmLUZpbGUtLVJFQURNRS5tZC01MzRBM0MxM0Y4RDlGOENFQkVFQzFFNDUyRTNENUU1M0IyQjYwMjNBaWNoZWNrc3Vtc4KiaWFsZ29yaXRobWZTSEEyNTZtY2hlY2tzdW1WYWx1ZXhAMmE5NDY3YWUwYmMyZmI3NjdhZTU4MmVmOTU0Yzg4MTFjNTE0MGY2ZWIxYjg4ZjZmNjRmMTE1OTE2NzY0ZWJmNKJpYWxnb3JpdGhtZFNIQTFtY2hlY2tzdW1WYWx1ZXgoNTM0YTNjMTNmOGQ5ZjhjZWJlZWMxZTQ1MmUzZDVlNTNiMmI2MDIzYXBsaWNlbnNlQ29uY2x1ZGVka05PQVNTRVJUSU9OcmxpY2Vuc2VJbmZvSW5GaWxlc4FrTk9BU1NFUlRJT05tY29weXJpZ2h0VGV4dGtOT0FTU0VSVElPTqZoZmlsZU5hbWVsLi8uZ2l0aWdub3JlZlNQRFhJRHhBU1BEWFJlZi1GaWxlLS0uZ2l0aWdub3JlLTFCNTk5Mjk5RUFCOTMzNEEzMzA1MUE5MjQwNEI1NDNBM0JCNDEzNTBpY2hlY2tzdW1zgqJpYWxnb3JpdGhtZlNIQTI1Nm1jaGVja3N1bVZhbHVleEA4ZjU5ODZjMzJhZDAzZjY0NDY3M2VjMTAyZDg0Y2FkMWY5NWIzZjQwZmFjMGRhMjg1NWMwYTJmOTBlYWU5MWUxomlhbGdvcml0aG1kU0hBMW1jaGVja3N1bVZhbHVleCgxYjU5OTI5OWVhYjkzMzRhMzMwNTFhOTI0MDRiNTQzYTNiYjQxMzUwcGxpY2Vuc2VDb25jbHVkZWRrTk9BU1NFUlRJT05ybGljZW5zZUluZm9JbkZpbGVzgWtOT0FTU0VSVElPTm1jb3B5cmlnaHRUZXh0a05PQVNTRVJUSU9OpmhmaWxlTmFtZW0uL2FydGlmYWN0LmpzZlNQRFhJRHhCU1BEWFJlZi1GaWxlLS1hcnRpZmFjdC5qcy04NkU0ODIzMUYzQTQ2NkQ1ODhCRURGNTE2MkU0RDZGRjdCOEMwMjUxaWNoZWNrc3Vtc4KiaWFsZ29yaXRobWZTSEEyNTZtY2hlY2tzdW1WYWx1ZXhANGEzMjg2ZmI0ODY2ZjllNDg5MjBiNmM2NjA5MDQyN2QwZGUyZGIxZTc5YWMyZTM3YTIxZDI5Yzk1MThlN2M0NqJpYWxnb3JpdGhtZFNIQTFtY2hlY2tzdW1WYWx1ZXgoODZlNDgyMzFmM2E0NjZkNTg4YmVkZjUxNjJlNGQ2ZmY3YjhjMDI1MXBsaWNlbnNlQ29uY2x1ZGVka05PQVNTRVJUSU9OcmxpY2Vuc2VJbmZvSW5GaWxlc4FrTk9BU1NFUlRJT05tY29weXJpZ2h0VGV4dGtOT0FTU0VSVElPTqZoZmlsZU5hbWVuLi9wYWNrYWdlLmpzb25mU1BEWElEeENTUERYUmVmLUZpbGUtLXBhY2thZ2UuanNvbi04RUUyNEUwNjYwRTMwQzQ4RDMxMzE3NTM0NDAwQ0NGQkMxNDlDQjc1aWNoZWNrc3Vtc4KiaWFsZ29yaXRobWZTSEEyNTZtY2hlY2tzdW1WYWx1ZXhAZmI5N2Q4Y2MxZTEyMjI3YmU4ZTViN2M2NGQ0N2I3MWZhYjQwN2EzODIwODcxZGEyNTgyNWU3MzRiNmFlOTdkN6JpYWxnb3JpdGhtZFNIQTFtY2hlY2tzdW1WYWx1ZXgoOGVlMjRlMDY2MGUzMGM0OGQzMTMxNzUzNDQwMGNjZmJjMTQ5Y2I3NXBsaWNlbnNlQ29uY2x1ZGVka05PQVNTRVJUSU9OcmxpY2Vuc2VJbmZvSW5GaWxlc4FrTk9BU1NFUlRJT05tY29weXJpZ2h0VGV4dGtOT0FTU0VSVElPTqEY3lggCAA8vBtG2tevLMbQxgEZHzLzNJqX35MtFb6TCNWhAe9ocGFja2FnZXOBrWRuYW1ldHNjaXR0LW5vZGVqcy1leGFtcGxlZlNQRFhJRHNTUERYUmVmLVJvb3RQYWNrYWdlcGRvd25sb2FkTG9jYXRpb25rTk9BU1NFUlRJT053cGFja2FnZVZlcmlmaWNhdGlvbkNvZGWheBxwYWNrYWdlVmVyaWZpY2F0aW9uQ29kZVZhbHVleCg4Mjc3ZjlhYzJlOTdhMGZlYjAxMTg2OTc3ZTYzYWM0MzI1NTZiZmU1bWZpbGVzQW5hbHl6ZWT1cGxpY2Vuc2VDb25jbHVkZWRrTk9BU1NFUlRJT050bGljZW5zZUluZm9Gcm9tRmlsZXOBa05PQVNTRVJUSU9Ob2xpY2Vuc2VEZWNsYXJlZGtOT0FTU0VSVElPTm1jb3B5cmlnaHRUZXh0a05PQVNTRVJUSU9Oa3ZlcnNpb25JbmZvZTAuMC4wbGV4dGVybmFsUmVmc4GjcXJlZmVyZW5jZUNhdGVnb3J5b1BBQ0tBR0UtTUFOQUdFUm1yZWZlcmVuY2VUeXBlZHB1cmxwcmVmZXJlbmNlTG9jYXRvcnhocGtnOnN3aWQvc2NpdHQtY29tbXVuaXR5L3NwZHgub3JnL3NjaXR0LW5vZGVqcy1leGFtcGxlQDAuMC4wP3RhZ19pZD00NGM3MDFhYS03ODI5LTRiYzUtOWZmZi0wOTljMDAxYWUzMDBoc3VwcGxpZXJ4HU9yZ2FuaXphdGlvbjogc2NpdHQtY29tbXVuaXR5aGhhc0ZpbGVzhnhAU1BEWFJlZi1GaWxlLS1zY3JpcHQuc2gtQTVCRTJBMEUwRkM5RjhDMkRBNEY0MjBCMzA0NkNEMjkyQUZCMTFDNXhCU1BEWFJlZi1GaWxlLS1hcnRpZmFjdC5qcy04NkU0ODIzMUYzQTQ2NkQ1ODhCRURGNTE2MkU0RDZGRjdCOEMwMjUxeENTUERYUmVmLUZpbGUtLXBhY2thZ2UuanNvbi04RUUyNEUwNjYwRTMwQzQ4RDMxMzE3NTM0NDAwQ0NGQkMxNDlDQjc1eD9TUERYUmVmLUZpbGUtLWNsZWFuLnNoLTQ5QjBCNzk0NjM5NjU4QTI0RUQwRjMwQkNDQzQxMjRBODg2RkE5MDh4QVNQRFhSZWYtRmlsZS0tLmdpdGlnbm9yZS0xQjU5OTI5OUVBQjkzMzRBMzMwNTFBOTI0MDRCNTQzQTNCQjQxMzUweEBTUERYUmVmLUZpbGUtLVJFQURNRS5tZC01MzRBM0MxM0Y4RDlGOENFQkVFQzFFNDUyRTNENUU1M0IyQjYwMjNBdGV4dGVybmFsRG9jdW1lbnRSZWZzgG1yZWxhdGlvbnNoaXBzgaNwcmVsYXRpb25zaGlwVHlwZWlERVNDUklCRVNycmVsYXRlZFNwZHhFbGVtZW50c1NQRFhSZWYtUm9vdFBhY2thZ2Vtc3BkeEVsZW1lbnRJZHBTUERYUmVmLURPQ1VNRU5Ua3NwZHhWZXJzaW9uaFNQRFgtMi4ya2RhdGFMaWNlbnNlZ0NDMC0xLjBmU1BEWElEcFNQRFhSZWYtRE9DVU1FTlRkbmFtZXgac2NpdHQtbm9kZWpzLWV4YW1wbGUgMC4wLjBxZG9jdW1lbnROYW1lc3BhY2V4gGh0dHBzOi8vc3BkeC5vcmcvc3BkeGRvY3Mvc2JvbS10b29sLTEuNy4xLWI0YjI2MjdlLWMyOGEtNGM2NS04ZjAwLThhNzljZmVkYzIyNS9zY2l0dC1ub2RlanMtZXhhbXBsZS8wLjAuMC9QV0pvdmxqelUwcUZhR2RIUldxS0RnbGNyZWF0aW9uSW5mb6JnY3JlYXRlZHQyMDIzLTExLTAxVDE3OjI2OjQ2WmhjcmVhdG9yc4J4HU9yZ2FuaXphdGlvbjogc2NpdHQtY29tbXVuaXR5eB5Ub29sOiBNaWNyb3NvZnQuU0JPTVRvb2wtMS43LjFxZG9jdW1lbnREZXNjcmliZXOBc1NQRFhSZWYtUm9vdFBhY2thZ2VYYOAkqzH1w_o2r8eAlJLpLccVeqdZalI-BZaemqR3W6qQ1AKJP_qFeCteuKgogv2SstKr1gG2Bt0O4TJ7LdXuGQf-JxMSfDrd2qI9eqfRL8FO5av1PIuCmBSUkXFMoBBPTA
+presentation: 0oREoQE4IqEZAU2AWQv4q2VmaWxlc4ahGN5YIBaL_M4o9eW0Oy_Y8CNATeOYhpfcQvl4yPlMxlYPeVPJpmhmaWxlTmFtZWsuL1JFQURNRS5tZGZTUERYSUR4QFNQRFhSZWYtRmlsZS0tUkVBRE1FLm1kLTUzNEEzQzEzRjhEOUY4Q0VCRUVDMUU0NTJFM0Q1RTUzQjJCNjAyM0FpY2hlY2tzdW1zgqJpYWxnb3JpdGhtZlNIQTI1Nm1jaGVja3N1bVZhbHVleEAyYTk0NjdhZTBiYzJmYjc2N2FlNTgyZWY5NTRjODgxMWM1MTQwZjZlYjFiODhmNmY2NGYxMTU5MTY3NjRlYmY0omlhbGdvcml0aG1kU0hBMW1jaGVja3N1bVZhbHVleCg1MzRhM2MxM2Y4ZDlmOGNlYmVlYzFlNDUyZTNkNWU1M2IyYjYwMjNhcGxpY2Vuc2VDb25jbHVkZWRrTk9BU1NFUlRJT05ybGljZW5zZUluZm9JbkZpbGVzgWtOT0FTU0VSVElPTm1jb3B5cmlnaHRUZXh0a05PQVNTRVJUSU9OpmhmaWxlTmFtZWwuLy5naXRpZ25vcmVmU1BEWElEeEFTUERYUmVmLUZpbGUtLS5naXRpZ25vcmUtMUI1OTkyOTlFQUI5MzM0QTMzMDUxQTkyNDA0QjU0M0EzQkI0MTM1MGljaGVja3N1bXOComlhbGdvcml0aG1mU0hBMjU2bWNoZWNrc3VtVmFsdWV4QDhmNTk4NmMzMmFkMDNmNjQ0NjczZWMxMDJkODRjYWQxZjk1YjNmNDBmYWMwZGEyODU1YzBhMmY5MGVhZTkxZTGiaWFsZ29yaXRobWRTSEExbWNoZWNrc3VtVmFsdWV4KDFiNTk5Mjk5ZWFiOTMzNGEzMzA1MWE5MjQwNGI1NDNhM2JiNDEzNTBwbGljZW5zZUNvbmNsdWRlZGtOT0FTU0VSVElPTnJsaWNlbnNlSW5mb0luRmlsZXOBa05PQVNTRVJUSU9ObWNvcHlyaWdodFRleHRrTk9BU1NFUlRJT06maGZpbGVOYW1lbS4vYXJ0aWZhY3QuanNmU1BEWElEeEJTUERYUmVmLUZpbGUtLWFydGlmYWN0LmpzLTg2RTQ4MjMxRjNBNDY2RDU4OEJFREY1MTYyRTRENkZGN0I4QzAyNTFpY2hlY2tzdW1zgqJpYWxnb3JpdGhtZlNIQTI1Nm1jaGVja3N1bVZhbHVleEA0YTMyODZmYjQ4NjZmOWU0ODkyMGI2YzY2MDkwNDI3ZDBkZTJkYjFlNzlhYzJlMzdhMjFkMjljOTUxOGU3YzQ2omlhbGdvcml0aG1kU0hBMW1jaGVja3N1bVZhbHVleCg4NmU0ODIzMWYzYTQ2NmQ1ODhiZWRmNTE2MmU0ZDZmZjdiOGMwMjUxcGxpY2Vuc2VDb25jbHVkZWRrTk9BU1NFUlRJT05ybGljZW5zZUluZm9JbkZpbGVzgWtOT0FTU0VSVElPTm1jb3B5cmlnaHRUZXh0a05PQVNTRVJUSU9OpmhmaWxlTmFtZW4uL3BhY2thZ2UuanNvbmZTUERYSUR4Q1NQRFhSZWYtRmlsZS0tcGFja2FnZS5qc29uLThFRTI0RTA2NjBFMzBDNDhEMzEzMTc1MzQ0MDBDQ0ZCQzE0OUNCNzVpY2hlY2tzdW1zgqJpYWxnb3JpdGhtZlNIQTI1Nm1jaGVja3N1bVZhbHVleEBmYjk3ZDhjYzFlMTIyMjdiZThlNWI3YzY0ZDQ3YjcxZmFiNDA3YTM4MjA4NzFkYTI1ODI1ZTczNGI2YWU5N2Q3omlhbGdvcml0aG1kU0hBMW1jaGVja3N1bVZhbHVleCg4ZWUyNGUwNjYwZTMwYzQ4ZDMxMzE3NTM0NDAwY2NmYmMxNDljYjc1cGxpY2Vuc2VDb25jbHVkZWRrTk9BU1NFUlRJT05ybGljZW5zZUluZm9JbkZpbGVzgWtOT0FTU0VSVElPTm1jb3B5cmlnaHRUZXh0a05PQVNTRVJUSU9OoRjeWCAIADy8G0ba168sxtDGARkfMvM0mpffky0VvpMI1aEB72hwYWNrYWdlc4GtZG5hbWV0c2NpdHQtbm9kZWpzLWV4YW1wbGVmU1BEWElEc1NQRFhSZWYtUm9vdFBhY2thZ2VwZG93bmxvYWRMb2NhdGlvbmtOT0FTU0VSVElPTndwYWNrYWdlVmVyaWZpY2F0aW9uQ29kZaF4HHBhY2thZ2VWZXJpZmljYXRpb25Db2RlVmFsdWV4KDgyNzdmOWFjMmU5N2EwZmViMDExODY5NzdlNjNhYzQzMjU1NmJmZTVtZmlsZXNBbmFseXplZPVwbGljZW5zZUNvbmNsdWRlZGtOT0FTU0VSVElPTnRsaWNlbnNlSW5mb0Zyb21GaWxlc4FrTk9BU1NFUlRJT05vbGljZW5zZURlY2xhcmVka05PQVNTRVJUSU9ObWNvcHlyaWdodFRleHRrTk9BU1NFUlRJT05rdmVyc2lvbkluZm9lMC4wLjBsZXh0ZXJuYWxSZWZzgaNxcmVmZXJlbmNlQ2F0ZWdvcnlvUEFDS0FHRS1NQU5BR0VSbXJlZmVyZW5jZVR5cGVkcHVybHByZWZlcmVuY2VMb2NhdG9yeGhwa2c6c3dpZC9zY2l0dC1jb21tdW5pdHkvc3BkeC5vcmcvc2NpdHQtbm9kZWpzLWV4YW1wbGVAMC4wLjA_dGFnX2lkPTQ0YzcwMWFhLTc4MjktNGJjNS05ZmZmLTA5OWMwMDFhZTMwMGhzdXBwbGllcngdT3JnYW5pemF0aW9uOiBzY2l0dC1jb21tdW5pdHloaGFzRmlsZXOGeEBTUERYUmVmLUZpbGUtLXNjcmlwdC5zaC1BNUJFMkEwRTBGQzlGOEMyREE0RjQyMEIzMDQ2Q0QyOTJBRkIxMUM1eEJTUERYUmVmLUZpbGUtLWFydGlmYWN0LmpzLTg2RTQ4MjMxRjNBNDY2RDU4OEJFREY1MTYyRTRENkZGN0I4QzAyNTF4Q1NQRFhSZWYtRmlsZS0tcGFja2FnZS5qc29uLThFRTI0RTA2NjBFMzBDNDhEMzEzMTc1MzQ0MDBDQ0ZCQzE0OUNCNzV4P1NQRFhSZWYtRmlsZS0tY2xlYW4uc2gtNDlCMEI3OTQ2Mzk2NThBMjRFRDBGMzBCQ0NDNDEyNEE4ODZGQTkwOHhBU1BEWFJlZi1GaWxlLS0uZ2l0aWdub3JlLTFCNTk5Mjk5RUFCOTMzNEEzMzA1MUE5MjQwNEI1NDNBM0JCNDEzNTB4QFNQRFhSZWYtRmlsZS0tUkVBRE1FLm1kLTUzNEEzQzEzRjhEOUY4Q0VCRUVDMUU0NTJFM0Q1RTUzQjJCNjAyM0F0ZXh0ZXJuYWxEb2N1bWVudFJlZnOAbXJlbGF0aW9uc2hpcHOBo3ByZWxhdGlvbnNoaXBUeXBlaURFU0NSSUJFU3JyZWxhdGVkU3BkeEVsZW1lbnRzU1BEWFJlZi1Sb290UGFja2FnZW1zcGR4RWxlbWVudElkcFNQRFhSZWYtRE9DVU1FTlRrc3BkeFZlcnNpb25oU1BEWC0yLjJrZGF0YUxpY2Vuc2VnQ0MwLTEuMGZTUERYSURwU1BEWFJlZi1ET0NVTUVOVGRuYW1leBpzY2l0dC1ub2RlanMtZXhhbXBsZSAwLjAuMHFkb2N1bWVudE5hbWVzcGFjZXiAaHR0cHM6Ly9zcGR4Lm9yZy9zcGR4ZG9jcy9zYm9tLXRvb2wtMS43LjEtYjRiMjYyN2UtYzI4YS00YzY1LThmMDAtOGE3OWNmZWRjMjI1L3NjaXR0LW5vZGVqcy1leGFtcGxlLzAuMC4wL1BXSm92bGp6VTBxRmFHZEhSV3FLRGdsY3JlYXRpb25JbmZvomdjcmVhdGVkdDIwMjMtMTEtMDFUMTc6MjY6NDZaaGNyZWF0b3JzgngdT3JnYW5pemF0aW9uOiBzY2l0dC1jb21tdW5pdHl4HlRvb2w6IE1pY3Jvc29mdC5TQk9NVG9vbC0xLjcuMXFkb2N1bWVudERlc2NyaWJlc4FzU1BEWFJlZi1Sb290UGFja2FnZVhg4CSrMfXD-javx4CUkuktxxV6p1lqUj4Flp6apHdbqpDUAok_-oV4K164qCiC_ZKy0qvWAbYG3Q7hMnst1e4ZB_4nExJ8Ot3aoj16p9EvwU7lq_U8i4KYFJSRcUygEE9M
+verified:
+  files:
+    - fileName: ./README.md
+      SPDXID: SPDXRef-File--README.md-534A3C13F8D9F8CEBEEC1E452E3D5E53B2B6023A
+      checksums:
+        - algorithm: SHA256
+          checksumValue: 2a9467ae0bc2fb767ae582ef954c8811c5140f6eb1b88f6f64f115916764ebf4
+        - algorithm: SHA1
+          checksumValue: 534a3c13f8d9f8cebeec1e452e3d5e53b2b6023a
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+    - fileName: ./.gitignore
+      SPDXID: SPDXRef-File--.gitignore-1B599299EAB9334A33051A92404B543A3BB41350
+      checksums:
+        - algorithm: SHA256
+          checksumValue: 8f5986c32ad03f644673ec102d84cad1f95b3f40fac0da2855c0a2f90eae91e1
+        - algorithm: SHA1
+          checksumValue: 1b599299eab9334a33051a92404b543a3bb41350
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+    - fileName: ./artifact.js
+      SPDXID: SPDXRef-File--artifact.js-86E48231F3A466D588BEDF5162E4D6FF7B8C0251
+      checksums:
+        - algorithm: SHA256
+          checksumValue: 4a3286fb4866f9e48920b6c66090427d0de2db1e79ac2e37a21d29c9518e7c46
+        - algorithm: SHA1
+          checksumValue: 86e48231f3a466d588bedf5162e4d6ff7b8c0251
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+    - fileName: ./package.json
+      SPDXID: SPDXRef-File--package.json-8EE24E0660E30C48D31317534400CCFBC149CB75
+      checksums:
+        - algorithm: SHA256
+          checksumValue: fb97d8cc1e12227be8e5b7c64d47b71fab407a3820871da25825e734b6ae97d7
+        - algorithm: SHA1
+          checksumValue: 8ee24e0660e30c48d31317534400ccfbc149cb75
+      licenseConcluded: NOASSERTION
+      licenseInfoInFiles:
+        - NOASSERTION
+      copyrightText: NOASSERTION
+  packages:
+    - name: scitt-nodejs-example
+      SPDXID: SPDXRef-RootPackage
+      downloadLocation: NOASSERTION
+      packageVerificationCode:
+        packageVerificationCodeValue: 8277f9ac2e97a0feb01186977e63ac432556bfe5
+      filesAnalyzed: true
+      licenseConcluded: NOASSERTION
+      licenseInfoFromFiles:
+        - NOASSERTION
+      licenseDeclared: NOASSERTION
+      copyrightText: NOASSERTION
+      versionInfo: 0.0.0
+      externalRefs:
+        - referenceCategory: PACKAGE-MANAGER
+          referenceType: purl
+          referenceLocator: pkg:swid/scitt-community/spdx.org/scitt-nodejs-example@0.0.0?tag_id=44c701aa-7829-4bc5-9fff-099c001ae300
+      supplier: "Organization: scitt-community"
+      hasFiles:
+        - SPDXRef-File--script.sh-A5BE2A0E0FC9F8C2DA4F420B3046CD292AFB11C5
+        - SPDXRef-File--artifact.js-86E48231F3A466D588BEDF5162E4D6FF7B8C0251
+        - SPDXRef-File--package.json-8EE24E0660E30C48D31317534400CCFBC149CB75
+        - SPDXRef-File--clean.sh-49B0B794639658A24ED0F30BCCC4124A886FA908
+        - SPDXRef-File--.gitignore-1B599299EAB9334A33051A92404B543A3BB41350
+        - SPDXRef-File--README.md-534A3C13F8D9F8CEBEEC1E452E3D5E53B2B6023A
+  externalDocumentRefs: []
+  relationships:
+    - relationshipType: DESCRIBES
+      relatedSpdxElement: SPDXRef-RootPackage
+      spdxElementId: SPDXRef-DOCUMENT
+  spdxVersion: SPDX-2.2
+  dataLicense: CC0-1.0
+  SPDXID: SPDXRef-DOCUMENT
+  name: scitt-nodejs-example 0.0.0
+  documentNamespace: https://spdx.org/spdxdocs/sbom-tool-1.7.1-b4b2627e-c28a-4c65-8f00-8a79cfedc225/scitt-nodejs-example/0.0.0/PWJovljzU0qFaGdHRWqKDg
+  creationInfo:
+    created: 2023-11-01T17:26:46Z
+    creators:
+      - "Organization: scitt-community"
+      - "Tool: Microsoft.SBOMTool-1.7.1"
+  documentDescribes:
+    - SPDXRef-RootPackage
